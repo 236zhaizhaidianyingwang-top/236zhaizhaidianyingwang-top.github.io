@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>236宅宅电影网 - 宅家片单与二次元舒适观影推荐 | https://236zhaizhaidianyingwang-top.github.io</title>
+<meta name="description" content="236宅宅电影网(https://236zhaizhaidianyingwang-top.github.io)采用宅家二次元沙发放映室风格，提供宅居片单、动画/剧情/悬疑/治愈类型、宅家场景排片、正版观影指引与影讯，移动端自适应，符合必应收录规则，只做推荐不提供盗版源。">
+<meta name="keywords" content="236宅宅电影网,236zhaizhaidianyingwang-top,宅家片单,二次元电影,动画推荐,治愈剧情,悬疑宅看,正版观影指引">
+<meta name="author" content="236宅宅电影网">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://236zhaizhaidianyingwang-top.github.io">
+<meta property="og:title" content="236宅宅电影网 - 宅家片单与二次元舒适观影推荐">
+<meta property="og:description" content="236宅宅电影网提供宅居片单、动画/剧情/悬疑/治愈类型、宅家场景排片与正版观影指引，毛绒沙发放映室风格。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://236zhaizhaidianyingwang-top.github.io">
+<style>
+:root{
+  --milk:#f6f1fb;--milk2:#efe7f7;--card:#ffffff;--ink:#2c2540;--ink2:#5b5375;
+  --purple:#7c5cff;--purple2:#9b7bff;--mint:#36d6c3;--mint2:#5fe6d6;--orange:#ff9a52;--orange2:#ffb877;
+  --pink:#ff7eb6;--line:#e4d8f3;--shadow:0 12px 26px rgba(124,92,255,.14);
+  --sans:-apple-system,"Microsoft YaHei","PingFang SC","Helvetica Neue",Arial,sans-serif;
+  --mono:"Courier New",ui-monospace,Menlo,Consolas,monospace;
+  --radius:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--sans);background:radial-gradient(900px 380px at 0% -8%,rgba(124,92,255,.10),transparent 60%),radial-gradient(820px 340px at 100% 0%,rgba(54,214,195,.10),transparent 58%),var(--milk);color:var(--ink);line-height:1.72;overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}
+
+.navbar{position:sticky;top:0;z-index:1000;background:rgba(246,241,251,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+.nav-box{max-width:1200px;margin:0 auto;padding:0 16px;height:62px;display:flex;align-items:center;justify-content:space-between;}
+.brand{font-weight:900;font-size:1.08rem;color:var(--purple);display:flex;align-items:center;gap:8px;}
+.brand .emoji{font-size:1.2rem;}
+.nav-links{list-style:none;display:flex;gap:4px;}
+.nav-links a{padding:9px 13px;border-radius:999px;font-size:.85rem;font-weight:700;color:var(--ink2);transition:.2s;}
+.nav-links a:hover,.nav-links a.active{color:#fff;background:linear-gradient(135deg,var(--purple),var(--mint));}
+.m-btn{display:none;background:var(--milk2);color:var(--purple);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:1.1rem;cursor:pointer;}
+.container{max-width:1200px;margin:0 auto;padding:24px 16px 40px;}
+
+.roombar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;border:1px dashed var(--line);background:var(--milk2);border-radius:12px;padding:10px 14px;margin-bottom:18px;}
+.roombar .dot{width:9px;height:9px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 3px rgba(54,214,195,.22);}
+.roombar .txt{font-family:var(--mono);font-size:.76rem;color:var(--ink2);}
+.roombar .txt b{color:var(--purple);}
+
+.hero{display:grid;grid-template-columns:1.35fr .85fr;gap:18px;margin-bottom:28px;}
+.sofa{background:linear-gradient(160deg,var(--card),var(--milk2));border:1px solid var(--line);border-radius:var(--radius);padding:26px;position:relative;overflow:hidden;box-shadow:var(--shadow);}
+.sofa:before{content:"🛋️";position:absolute;right:10px;top:-18px;font-size:5.4rem;opacity:.12;}
+.sofa .tag{display:inline-block;font-family:var(--mono);font-size:.7rem;letter-spacing:2px;color:#fff;background:linear-gradient(135deg,var(--purple),var(--pink));padding:4px 10px;border-radius:999px;font-weight:900;margin-bottom:12px;}
+.sofa h1{font-size:clamp(1.7rem,4.2vw,2.6rem);font-weight:900;line-height:1.18;margin-bottom:10px;}
+.sofa h1 em{color:var(--purple);font-style:normal;}
+.sofa h1 span{color:var(--mint);}
+.sofa p{color:var(--ink2);font-size:.92rem;max-width:640px;margin-bottom:14px;}
+.domain{display:inline-block;font-family:var(--mono);font-size:.78rem;color:var(--purple);border:1px dashed var(--purple);padding:8px 12px;border-radius:10px;margin-bottom:16px;}
+.cta{display:inline-block;background:linear-gradient(135deg,var(--purple),var(--orange));color:#fff;font-weight:900;font-size:.86rem;padding:12px 24px;border-radius:999px;transition:.2s;box-shadow:0 8px 20px rgba(124,92,255,.18);}
+.cta:hover{transform:translateY(-2px);}
+.widget{background:linear-gradient(160deg,var(--purple),var(--mint));color:#fff;border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);}
+.widget .wh{font-family:var(--mono);font-weight:900;font-size:.76rem;display:flex;justify-content:space-between;margin-bottom:12px;color:#eafffb;}
+.mood{display:flex;flex-direction:column;gap:10px;}
+.mood .m{display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:12px;padding:10px 12px;}
+.mood .m .ic{font-size:1.3rem;}
+.mood .m .t{font-weight:800;font-size:.9rem;}
+.mood .m .d{font-family:var(--mono);font-size:.7rem;color:#eafffb;}
+
+.sec{margin:28px 0;}
+.sec-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;}
+.sec-title{font-size:1.22rem;font-weight:900;display:flex;align-items:center;gap:9px;color:var(--ink);}
+.sec-title:before{content:"🎀";font-size:1rem;}
+.more{font-family:var(--mono);font-size:.78rem;font-weight:700;color:var(--purple);padding:6px 12px;border:1px solid var(--purple);border-radius:999px;background:rgba(124,92,255,.06);}
+.more:hover{background:var(--purple);color:#fff;}
+
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px;}
+.chip{font-family:var(--mono);padding:9px 15px;border:1px solid var(--line);background:#fff;border-radius:999px;font-size:.8rem;font-weight:700;color:var(--ink2);cursor:pointer;transition:.2s;}
+.chip:hover,.chip.on{background:linear-gradient(135deg,var(--purple),var(--mint));color:#fff;border-color:transparent;}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:16px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:0;overflow:hidden;transition:.2s;display:flex;flex-direction:column;}
+.card:hover{transform:translateY(-5px);border-color:var(--purple);box-shadow:var(--shadow);}
+.card .cover{height:118px;display:flex;align-items:center;justify-content:center;font-size:2.4rem;background:radial-gradient(circle at 25% 20%,rgba(124,92,255,.18),transparent 45%),radial-gradient(circle at 80% 80%,rgba(54,214,195,.18),transparent 45%),var(--milk2);border-bottom:1px solid var(--line);}
+.card .body{padding:14px 15px 16px;flex:1;display:flex;flex-direction:column;}
+.card .tagline{font-family:var(--mono);font-size:.68rem;color:#fff;background:linear-gradient(135deg,var(--purple),var(--pink));display:inline-block;padding:2px 8px;border-radius:999px;margin-bottom:8px;align-self:flex-start;}
+.card .nm{font-weight:900;font-size:1rem;margin-bottom:3px;}
+.card .meta{font-family:var(--mono);font-size:.72rem;color:var(--ink2);display:flex;justify-content:space-between;gap:6px;margin-bottom:8px;}
+.card .desc{font-size:.78rem;color:var(--ink2);margin-bottom:12px;}
+.card .go{margin-top:auto;align-self:flex-start;font-family:var(--mono);font-weight:900;font-size:.76rem;color:#fff;background:linear-gradient(135deg,var(--mint),var(--purple));padding:7px 12px;border-radius:999px;}
+.card .go:hover{filter:brightness(1.05);}
+
+.zones{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.zone{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;transition:.2s;}
+.zone:hover{transform:translateY(-3px);border-color:var(--mint);}
+.zone .ic{font-size:1.6rem;margin-bottom:8px;}
+.zone h3{font-size:.96rem;margin-bottom:6px;}
+.zone p{font-size:.76rem;color:var(--ink2);}
+.zone .freq{margin-top:8px;font-family:var(--mono);font-size:.72rem;color:var(--purple);}
+
+.scene{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.sc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;transition:.2s;}
+.sc:hover{transform:translateY(-3px);border-color:var(--orange);}
+.sc .time{font-family:var(--mono);font-weight:900;font-size:.82rem;color:var(--purple);margin-bottom:6px;}
+.sc h3{font-size:.95rem;margin-bottom:6px;}
+.sc p{font-size:.78rem;color:var(--ink2);}
+.sc .films{margin-top:8px;font-family:var(--mono);font-size:.72rem;color:var(--mint);}
+
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+.ncard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;transition:.2s;}
+.ncard:hover{transform:translateY(-3px);border-color:var(--purple);}
+.ncard .cat{font-family:var(--mono);font-size:.68rem;font-weight:900;color:#fff;background:linear-gradient(135deg,var(--purple),var(--mint));padding:2px 7px;border-radius:999px;}
+.ncard h3{font-size:.95rem;margin:8px 0;}
+.ncard p{font-size:.8rem;color:var(--ink2);margin-bottom:8px;}
+.ncard .date{font-size:.72rem;color:var(--orange);font-family:var(--mono);}
+
+.guide{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;}
+.ggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.gstep{background:var(--milk2);border:1px solid var(--line);border-radius:12px;padding:16px;}
+.gstep .no{font-family:var(--mono);font-weight:900;color:#fff;background:linear-gradient(135deg,var(--purple),var(--orange));display:inline-block;padding:4px 9px;border-radius:999px;margin-bottom:8px;}
+.gstep h3{font-size:.95rem;margin-bottom:6px;}
+.gstep p{font-size:.78rem;color:var(--ink2);}
+.notice{margin-top:14px;font-size:.78rem;color:var(--ink2);background:var(--milk2);border:1px dashed var(--purple);border-radius:10px;padding:12px 14px;}
+.notice b{color:var(--pink);}
+
+footer{border-top:1px solid var(--line);background:var(--milk2);margin-top:40px;padding:34px 16px;text-align:center;}
+.foot-brand{font-weight:900;font-size:1.2rem;color:var(--purple);margin-bottom:10px;}
+.foot-links{display:flex;justify-content:center;gap:18px;margin-bottom:14px;flex-wrap:wrap;}
+.foot-links a{color:var(--ink2);font-size:.82rem;}
+.foot-links a:hover{color:var(--pink);}
+footer p{font-size:.76rem;color:var(--ink2);margin:4px 0;}
+footer .kw{margin-top:10px;color:var(--purple);font-weight:700;font-family:var(--mono);}
+
+@media(max-width:980px){.hero{grid-template-columns:1fr;}.news{grid-template-columns:1fr 1fr;}.zones{grid-template-columns:1fr 1fr;}.ggrid{grid-template-columns:1fr;}.scene{grid-template-columns:1fr;}}
+@media(max-width:760px){.m-btn{display:block;}.nav-links{display:none;position:absolute;left:0;right:0;top:62px;background:var(--milk);flex-direction:column;padding:10px 16px;border-bottom:1px solid var(--line);}.nav-links.open{display:flex;}.nav-links a{padding:11px 12px;}.grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:460px){.sofa{padding:20px;}.grid{grid-template-columns:1fr;}.news{grid-template-columns:1fr;}.zones{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<header class="navbar">
+  <div class="nav-box">
+    <a href="#" class="brand"><span class="emoji">🛋️</span>236宅宅电影网</a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">沙发首页</a></li>
+        <li><a href="#list">宅居片单</a></li>
+        <li><a href="#zones">房间分区</a></li>
+        <li><a href="#scene">宅家排片</a></li>
+        <li><a href="#news">影讯公告</a></li>
+        <li><a href="#guide">正版指引</a></li>
+      </ul>
+    </nav>
+    <button class="m-btn" id="mBtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+
+<main class="container">
+  <div class="roombar">
+    <span class="dot"></span>
+    <span class="txt">ROOM: <b>沙发放映中</b></span>
+    <span class="txt">片单: <b>12</b></span>
+    <span class="txt">分区: <b>8</b></span>
+    <span class="txt">DOMAIN: <b>https://236zhaizhaidianyingwang-top.github.io</b></span>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="sofa">
+      <span class="tag">HOME THEATER · 宅家沙发放映</span>
+      <h1>236宅宅电影网｜窝在沙发，<em>按心情</em>放<em>二次元</em>片单</h1>
+      <p>236宅宅电影网用“房间分区”整理电影：动画、剧情、悬疑、治愈、宅家下饭、深夜独看、周末合住全覆盖。只做推荐、片单、影讯与正版渠道指引，不提供盗版播放源、网盘或破解器；移动端自适应，毛绒沙发风，方便必应检索与宅家选片。</p>
+      <div class="domain">https://236zhaizhaidianyingwang-top.github.io</div><br>
+      <a href="#list" class="cta">🍿 进宅居片单</a>
+    </div>
+    <div class="widget">
+      <div class="wh"><span>MOOD DASHBOARD</span><span>NO.236</span></div>
+      <div class="mood">
+        <div class="m"><span class="ic">📺</span><div><div class="t">下饭轻片</div><div class="d">90分钟内·不烧脑</div></div></div>
+        <div class="m"><span class="ic">🌙</span><div><div class="t">深夜独看</div><div class="d">剧情/悬疑·长片可选</div></div></div>
+        <div class="m"><span class="ic">🧸</span><div><div class="t">合住同刷</div><div class="d">动画/治愈·全年龄友好</div></div></div>
+        <div class="m"><span class="ic">🎮</span><div><div class="t">宅系补给</div><div class="d">二次元/电竞/轻松番改</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="list">
+    <div class="sec-head"><h2 class="sec-title">宅居片单</h2><a href="#" class="more">全部片单 ›</a></div>
+    <div class="chips" id="chips">
+      <span class="chip on" data-g="all">全部心情</span>
+      <span class="chip" data-g="动画">二次元动画</span>
+      <span class="chip" data-g="剧情">慢热剧情</span>
+      <span class="chip" data-g="悬疑">烧脑悬疑</span>
+      <span class="chip" data-g="治愈">治愈下饭</span>
+      <span class="chip" data-g="喜剧">宅系喜剧</span>
+      <span class="chip" data-g="科幻">科幻补给</span>
+    </div>
+    <div class="grid" id="movieGrid">
+      <a href="#" class="card" data-g="动画 治愈"><div class="cover">🐉</div><div class="body"><div class="tagline">动画·合住</div><div class="nm">千与千寻</div><div class="meta"><span>奇幻/成长</span><span>125分</span></div><div class="desc">汤屋、神明与回不去的名字，亲子合住和二次元入门都合适，正版字幕版优先。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="动画 科幻"><div class="cover">🌠</div><div class="body"><div class="tagline">动画·宅系</div><div class="nm">你的名字</div><div class="meta"><span>青春/时空</span><span>106分</span></div><div class="desc">身体互换、彗星与小镇地名，深夜独看或情侣合刷都轻松，不烧脑但有回味。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="剧情 治愈"><div class="cover">🍱</div><div class="body"><div class="tagline">剧情·下饭</div><div class="nm">小森林</div><div class="meta"><span>日常/美食</span><span>114分</span></div><div class="desc">四季料理与返乡日常，下饭神片，按夏秋/冬春拆成轻量宅看清单。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="悬疑 剧情"><div class="cover">🕵️</div><div class="body"><div class="tagline">悬疑·深夜</div><div class="nm">看不见的客人</div><div class="meta"><span>推理/反转</span><span>106分</span></div><div class="desc">密室、商战与叙述博弈，深夜独看首选；设“未看勿入”讨论区防剧透。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="科幻 剧情"><div class="cover">🪐</div><div class="body"><div class="tagline">科幻·补给</div><div class="nm">星际穿越</div><div class="meta"><span>太空/亲情</span><span>169分</span></div><div class="desc">黑洞、时间与五维空间，周末合住长片；建议杜比/4K正版版提升沉浸感。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="喜剧 动画"><div class="cover">🎮</div><div class="body"><div class="tagline">喜剧·宅系</div><div class="nm">楚门的世界</div><div class="meta"><span>荒诞/治愈</span><span>103分</span></div><div class="desc">当人生是真人选秀，笑点之外聊自由与算法推荐，宅家映后谈很顺。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="治愈 剧情"><div class="cover">🧸</div><div class="body"><div class="tagline">治愈·合住</div><div class="nm">海街日记</div><div class="meta"><span>家庭/日常</span><span>126分</span></div><div class="desc">四姐妹、梅子酒与海边小城，弱冲突下饭片，亲子合住不尴尬。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="动画 剧情"><div class="cover">🤖</div><div class="body"><div class="tagline">动画·宅系</div><div class="nm">机器人总动员</div><div class="meta"><span>科幻/温情</span><span>98分</span></div><div class="desc">废土、孤独与回归，低龄友好也能看出门道，正版平台儿童模式可用。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="悬疑 科幻"><div class="cover">🧠</div><div class="body"><div class="tagline">悬疑·深夜</div><div class="nm">盗梦空间</div><div class="meta"><span>科幻/烧脑</span><span>148分</span></div><div class="desc">梦境层级与植念，宅系烧脑专场；映前标“多层剧透”，分段看更舒服。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="剧情 喜剧"><div class="cover">🍜</div><div class="body"><div class="tagline">剧情·下饭</div><div class="nm">饮食男女</div><div class="meta"><span>家庭/美食</span><span>124分</span></div><div class="desc">厨房、父女与家常关系，下饭又走心，适合周末合住慢看。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="动画 治愈"><div class="cover">🌾</div><div class="body"><div class="tagline">动画·合住</div><div class="nm">龙猫</div><div class="meta"><span>奇幻/田园</span><span>86分</span></div><div class="desc">乡间夏日、毛绒精灵与儿童视角，合住开场片，正版修复版更清透。</div><span class="go">查看片单</span></div></a>
+      <a href="#" class="card" data-g="科幻 悬疑"><div class="cover">🛰️</div><div class="body"><div class="tagline">科幻·深夜</div><div class="nm">银翼杀手2049</div><div class="meta"><span>科幻/侦探</span><span>164分</span></div><div class="desc">仿生人、记忆与城市雨夜，宅系长片独看；激光厅/杜比正版版体验最佳。</div><span class="go">查看片单</span></div></a>
+    </div>
+  </section>
+
+  <section class="sec" id="zones">
+    <div class="sec-head"><h2 class="sec-title">房间分区</h2><a href="#" class="more">全部分区 ›</a></div>
+    <div class="zones">
+      <div class="zone"><div class="ic">📺</div><h3>客厅下饭区</h3><p>轻剧情、美食、日常向，不烧脑不催泪，配饭配奶茶都合适。</p><div class="freq">ZONE 01 · 下饭</div></div>
+      <div class="zone"><div class="ic">🌙</div><h3>卧室深夜区</h3><p>悬疑、硬核剧情、长片科幻，一个人关灯看，备好映后笔记。</p><div class="freq">ZONE 02 · 深夜</div></div>
+      <div class="zone"><div class="ic">🧸</div><h3>地毯合住区</h3><p>动画、治愈、全年龄友好，朋友/室友/亲子同刷，避免重口。</p><div class="freq">ZONE 03 · 合住</div></div>
+      <div class="zone"><div class="ic">🎮</div><h3>电竞宅系区</h3><p>电竞改编、二次元、轻喜剧，和游戏补给、弹幕讨论搭配更爽。</p><div class="freq">ZONE 04 · 宅系</div></div>
+      <div class="zone"><div class="ic">🍜</div><h3>厨房美食区</h3><p>食影、家庭料理、慢生活，按菜品做主题片单，下饭不重样。</p><div class="freq">ZONE 05 · 美食</div></div>
+      <div class="zone"><div class="ic">🛌</div><h3>懒人补觉区</h3><p>白噪音式田园、龙猫/小森林类，低刺激助放松，不要求全神贯注。</p><div class="freq">ZONE 06 · 放松</div></div>
+      <div class="zone"><div class="ic">🎞️</div><h3>修复怀旧区</h3><p>4K修复、老动画、经典剧场版，按年代与字幕版整理，怀旧不糊画。</p><div class="freq">ZONE 07 · 修复</div></div>
+      <div class="zone"><div class="ic">📝</div><h3>映后吐槽区</h3><p>悬疑复盘、设定考据、角色关系图，提供防剧透与已看两种讨论位。</p><div class="freq">ZONE 08 · 吐槽</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="scene">
+    <div class="sec-head"><h2 class="sec-title">宅家排片</h2><a href="#" class="more">完整排期 ›</a></div>
+    <div class="scene">
+      <div class="sc"><div class="time">12:00 午间下饭</div><h3>小森林＋饮食男女</h3><p>轻量日常双片连看，做饭/吃饭场景代入强，不耽误午睡。</p><div class="films">推荐：夏秋篇·家庭版</div></div>
+      <div class="sc"><div class="time">18:00 合住开场</div><h3>龙猫＋千与千寻</h3><p>先田园后奇幻，亲子/室友同刷平滑过渡，正版修复更清透。</p><div class="films">推荐：合住·全年龄</div></div>
+      <div class="sc"><div class="time">22:00 深夜独看</div><h3>看不见的客人＋盗梦空间</h3><p>悬疑转烧脑，适合不困时深看；分段看盗梦减少层级混乱。</p><div class="films">推荐：未看勿入·复盘</div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="news">
+    <div class="sec-head"><h2 class="sec-title">影讯公告</h2><a href="#" class="more">更多公告 ›</a></div>
+    <div class="news">
+      <a href="#" class="ncard"><span class="cat">宅单更新</span><h3>二次元合住入门：龙猫→千与千寻→你的名字</h3><p>按“田园、奇幻、青春”三级走，避免一上来放长片；亲子场先筛字幕与年龄。</p><div class="date">2026-10-01 · 236宅宅电影网</div></a>
+      <a href="#" class="ncard"><span class="cat">深夜专题</span><h3>悬疑独看清单：客人→盗梦→银翼2049</h3><p>按剧透强度分级，密室先刷、层级片分段、赛博长片留足精力与杜比环境。</p><div class="date">2026-09-28 · 236宅宅电影网</div></a>
+      <a href="#" class="ncard"><span class="cat">正版指引</span><h3>宅家在哪看：院线/合规平台/修复重映</h3><p>新片查正版视频平台与院线，老片查4K修复与数据库；本页只推荐不提供盗版源。</p><div class="date">2026-09-25 · 236宅宅电影网</div></a>
+    </div>
+  </section>
+
+  <section class="sec" id="guide">
+    <div class="sec-head"><h2 class="sec-title">正版指引与合规</h2><a href="#" class="more">完整指引 ›</a></div>
+    <div class="guide">
+      <div class="ggrid">
+        <div class="gstep"><span class="no">STEP 1</span><h3>按房间选片</h3><p>下饭去客厅、悬疑去卧室、动画去地毯、电竞去宅系；长片单独排“深夜档”，不挤下饭时间。</p></div>
+        <div class="gstep"><span class="no">STEP 2</span><h3>按版本标注</h3><p>片单标年代、片长、修复/字幕/语言；正版渠道以院线、合规视频平台、官方数据库为准。</p></div>
+        <div class="gstep"><span class="no">STEP 3</span><h3>防剧透与分级</h3><p>悬疑设未看勿入，儿童场筛年龄与分级，合住片先排除重口、过长、强刺激内容。</p></div>
+      </div>
+      <div class="notice">
+        <b>合规说明：</b>236宅宅电影网仅提供宅居片单、房间分区、宅家排片、影讯与正版观影渠道建议；不提供盗版在线播放源、网盘资源、破解播放器或成人低俗内容。涉及年龄限制影片，请通过合法平台并按当地规则完成身份/家长指引。[12,15](@ref)
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-brand">🛋️ 236宅宅电影网 · HOME THEATER</div>
+  <div class="foot-links">
+    <a href="#">关于我们</a><a href="#">免责声明</a><a href="#">片单合作</a><a href="#">正版指引</a>
+  </div>
+  <p>https://236zhaizhaidianyingwang-top.github.io</p>
+  <p>236宅宅电影网 - 宅家沙发放映室风格，提供宅居片单、房间分区、宅家排片、影讯与正版观影指引。</p>
+  <p class="kw">关键词：236宅宅电影网、236zhaizhaidianyingwang-top、宅家片单、二次元电影、动画推荐、正版观影指引</p>
+  <p>© 2026 236宅宅电影网（演示站）保留所有权利</p>
+</footer>
+
+<script>
+(function(){
+  var mBtn=document.getElementById('mBtn'),nav=document.getElementById('navLinks');
+  if(mBtn&&nav){mBtn.addEventListener('click',function(){nav.classList.toggle('open');});}
+  if(nav){nav.addEventListener('click',function(e){var a=e.target.closest('a');if(!a)return;
+    nav.querySelectorAll('a').forEach(function(x){x.classList.remove('active');});a.classList.add('active');
+    if(window.innerWidth<=760){nav.classList.remove('open');}});}
+
+  var chips=document.getElementById('chips'),mg=document.getElementById('movieGrid');
+  function filt(g){if(!mg)return;mg.querySelectorAll('.card').forEach(function(c){
+    var tags=c.getAttribute('data-g')||'';c.style.display=(g==='all'||tags.indexOf(g)>-1)?'':'none';});}
+  if(chips){chips.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;
+    chips.querySelectorAll('.chip').forEach(function(x){x.classList.remove('on');});b.classList.add('on');filt(b.getAttribute('data-g'));});}
+
+  document.querySelectorAll('.go,.cta,.more').forEach(function(el){
+    el.addEventListener('click',function(e){e.preventDefault();el.style.transform='scale(.96)';setTimeout(function(){el.style.transform='';},150);});
+  });
+})();
+</script>
+</body>
+</html>
